@@ -4,6 +4,26 @@
 
 Working with spreadsheets in Python.
 
+
+## Comparison
+
+polars
+
+
+why?
+1. written in rust (Built to allow parallel processing due to being written from Rust, while pandas is written on top of python libraries like numpy)
+
+2. apache arrow memory format, a more efficient memory format for data processing
+
+3. lazy execution
+
+
+pandas advantages
+
+1. established, greatest interoperability with other packages that form part of the machine learning pipeline, but polars is catching up quickly
+
+
+
 > There should be one-- and preferably only one --obvious way to do it.
 > _PEP 20, The Zen of Python_
 
@@ -624,6 +644,6 @@ food_guide = {
 
 ### Sources
 
-[Modern Polars](https://kevinheavey.github.io/modern-polars/)
+[Modern Polars, Kevin Heavey](https://kevinheavey.github.io/modern-polars/)
 
-[Writing Idiomatic Python, Jeff Knupp](https://jeffknupp.com/blog/2012/10/04/writing-idiomatic-python/)
+[Polars vs. pandas: What’s the Difference?, Jodie Burchell](https://blog.jetbrains.com/pycharm/2024/07/polars-vs-pandas/)
